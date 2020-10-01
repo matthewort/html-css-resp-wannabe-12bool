@@ -14,8 +14,8 @@
 [class*="col-"] {
   min-height: 100px;
   text-align: center;
-  background-color: lightgreen;
-  border: solid 1px black;
+  /* background-color: lightgreen;
+  border: solid 1px black; */
 }
 
 
@@ -34,6 +34,7 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 4%;
 }
 
 #lezioni {
@@ -46,6 +47,12 @@
 #steps .row>.right {
   float: left;
   width: 33%;
+}
+
+#steps .row img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4%;
 }
 
 #steps {
@@ -68,6 +75,7 @@
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px;
+  margin-top: 4%;
 }
 
 /* COMMON */
